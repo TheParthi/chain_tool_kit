@@ -1,0 +1,27 @@
+/* TEAM */
+Creator: nirholas
+GitHub: https://github.com/nirholas
+From: Earth
+
+/* PROJECT */
+Name: BNB Chain AI Toolkit
+Repository: https://github.com/nirholas/bnb-chain-toolkit
+Description: The most comprehensive open-source AI toolkit for BNB Chain
+Version: 0.1.0
+Last update: 2026-02-11
+Language: English
+License: MIT
+
+/* TECH */
+Framework: TypeScript, Python, Solidity
+Runtime: Node.js 18+, bun
+Protocols: MCP (Model Context Protocol)
+Chains: BNB Smart Chain, opBNB, BNB Greenfield, Ethereum,  more
+Standards: ERC-8004, W3AG
+
+/* TOOLS */
+Build: bun
+AI Agents: 78
+MCP Servers: 6
+Tools: 1,100+
+Languages: 30+

@@ -1,0 +1,17 @@
+{
+    "schemaVersion": 1,
+    "project": "bnb-chain-ai-toolkit",
+    "author": "nirholas",
+    "ecosystem": "BNB Chain",
+    "components": [
+        "agents",
+        "mcp-servers",
+        "market-data",
+        "defi-tools",
+        "wallets",
+        "standards"
+    ],
+    "agentCount": 78,
+    "mcpServerCount": 6,
+    "toolCount": 1100
+}

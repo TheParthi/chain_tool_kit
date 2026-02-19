@@ -1,0 +1,36 @@
+/**
+ * ✨ built by nich
+ * 🌐 GitHub: github.com/nirholas
+ * 💫 Keep shining, keep coding 🌞
+ */
+
+import { useParams } from 'react-router-dom';
+
+import InteractiveTutorial from '@/components/Tutorial/InteractiveTutorial';
+import { tutorials } from '@/data/tutorials';
+import { useVisualFeedback } from '@/components/Accessibility/VisualFeedback';
+
+export default function TutorialPage() {
+  const { tutorialId } = useParams<{ tutorialId: string }>();
+  const tutorial = tutorials.find(t => t.id === tutorialId) || tutorials[0];
+  const isFallback = !tutorialId || tutorial.id !== tutorialId;
+  const { showToast } = useVisualFeedback();
+
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
+      {isFallback && (
+        <div className="container pt-6">
+          <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 text-amber-900 px-4 py-3 text-sm dark:border-amber-700 dark:bg-amber-900/40 dark:text-amber-100">
+            Requested tutorial was not found; showing the first available tutorial instead.
+          </div>
+        </div>
+      )}
+      <InteractiveTutorial 
+        tutorial={tutorial}
+        onComplete={() => {
+          showToast('🎉 Congratulations! You completed the tutorial!', 'success');
+        }}
+      />
+    </div>
+  );
+}

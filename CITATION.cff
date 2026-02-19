@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use BNB Chain AI Toolkit, please cite it as below."
+type: software
+title: "BNB Chain AI Toolkit"
+abstract: "The most comprehensive open-source AI toolkit for BNB Chain. 78 AI agents, 6 MCP servers with 1,100+ tools, market data, DeFi tools, wallet utilities, and Web3 standards."
+authors:
+  - alias: nirholas
+    name: nirholas
+repository-code: "https://github.com/nirholas/bnb-chain-toolkit"
+url: "https://github.com/nirholas/bnb-chain-toolkit"
+license: MIT
+version: "0.1.0"
+date-released: "2026-02-11"
+keywords:
+  - bnb-chain
+  - ai-agents
+  - mcp
+  - defi
+  - web3
+  - open-source
+  - nirholas
+

@@ -1,0 +1,17 @@
+{
+  "name": "BNB Chain AI Toolkit",
+  "short_name": "BNB Toolkit",
+  "description": "78 AI agents, 6 MCP servers, 1,100+ tools for BNB Chain and  networks. Write, compile and deploy Solidity in your browser.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#F0B90B",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

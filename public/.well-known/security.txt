@@ -1,0 +1,45 @@
+# Security Policy for BNB Chain AI Toolkit
+
+## Reporting Security Issues
+
+If you discover a security vulnerability, please report it responsibly:
+
+1. **GitHub**: Open a private security advisory at https://github.com/nirholas/bnb-chain-toolkit/security/advisories
+2. **Twitter/X**: DM @nichxbt
+
+Please include:
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested fix (if any)
+
+## Response Timeline
+
+- Acknowledgment: Within 48 hours
+- Initial assessment: Within 7 days
+- Resolution: Depends on severity
+
+## Scope
+
+In scope:
+- bnbchaintoolkit.com website
+- MCP server packages
+- ERC-8004 smart contracts
+- Agent definitions and runtime
+
+Out of scope:
+- Third-party dependencies (report to upstream)
+- Social engineering attacks
+- Denial of service
+
+## Safe Harbor
+
+We will not take legal action against researchers who:
+- Act in good faith
+- Avoid privacy violations and data destruction
+- Report findings promptly
+- Allow reasonable time for fixes before disclosure
+
+## Recognition
+
+We maintain a hall of fame for security researchers who help improve our platform.

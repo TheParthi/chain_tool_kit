@@ -1,0 +1,177 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+.pnp/
+.pnp.js
+
+# ===========================
+# MCP Registry tokens
+# ===========================
+.mcpregistry_*
+
+# ===========================
+# Build outputs
+# ===========================
+dist/
+build/
+out/
+.output/
+.vite/
+*.tsbuildinfo
+*.local
+
+# ===========================
+# Environment variables
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+!.env.example
+standards/erc-8004/contracts/.env
+
+# ===========================
+# Backup files
+# ===========================
+*.bak
+
+# ===========================
+# Package manager logs & caches
+# ===========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# ===========================
+# Bun
+# ===========================
+bun.lockb
+
+# ===========================
+# Editor / IDE
+# ===========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ===========================
+# Testing & Coverage
+# ===========================
+coverage/
+.nyc_output/
+*.lcov
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+*.whl
+.venv/
+venv/
+env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# ===========================
+# Solidity / Foundry / Hardhat
+# ===========================
+cache/
+artifacts/
+typechain/
+typechain-types/
+forge-cache/
+broadcast/
+*.abi
+
+# ===========================
+# Docker
+# ===========================
+*.pid
+*.seed
+
+# ===========================
+# Miscellaneous
+# ===========================
+.turbo/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.temp/
+.tmp/
+tmp/
+temp/
+
+# Screenshots & images (accidental drops)
+Screenshot*
+screenshot*
+
+# Secrets & keys (safety net)
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Backup files
+*.bak
+
+# Gradle build cache
+.gradle/
+
+# Backup files
+*.bak
+*.orig
+
+# Test reports
+**/playwright-report/
+**/test-results/
